@@ -7,3 +7,7 @@ function halmazBeolvas(szoveg) {
             .filter(e => !isNaN(e))
     ));
 }
+function egyesites(a, b) {
+    return Array.from(new Set([...a, ...b]));
+}
+
