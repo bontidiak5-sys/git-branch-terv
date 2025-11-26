@@ -10,7 +10,24 @@
 <body>
     <h1>Halmazműveletek</h1>
     <form id="halmazForm">
+        <label for="halmazA">Halmaz A:</label>
+        <input type="text" id="halmazA" placeholder="1,2,3,4,5">
+        <br>
+        <label for="halmazB">Halmaz B:</label>
+        <input type="text" id="halmazB" placeholder="3,4,5,6,7">
+        <br>
+        <label for="muvelet">Művelet:</label>
+        <select id="muvelet">
+            <option value="egyesites">Unió (AUB)</option>
+            <option value="metszet">Metszet (A∩B)</option>
+            <option value="kulonseg">Különbség (A\B)</option>
+        </select>
+        <br>
+        <button type="button" id="calculateBtn">Számol</button>
+    </form>
     <h2>Eredmény:</h2>
     <div id="eredmeny"></div>
+    <canvas id="vennCanvas" width="400" height="200" style="border:1px solid #ccc;"></canvas>
+    
 </body>
 </html>
