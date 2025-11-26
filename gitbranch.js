@@ -51,4 +51,4 @@ function drawVenn(a, b, result, muvelet) {
     ctx.fillText('Eredmény: ' + result.join(', '), 100, 180);
     // Művelet
     ctx.fillStyle = '#666';
-    ctx.fillText('Művelet: ' + muvelet, 160, 195);
+    ctx.fillText('Művelet: ' + muvelet, 160, 195)};
